@@ -71,7 +71,7 @@ class IndexController extends Controller
 
             // $temppayment->delete();
 
-            Session::flash('swalsuccess', 'পেমেন্ট সফল হয়েছে। অ্যাপটি ব্যবহার করুন। ধন্যবাদ!');
+            Session::flash('swalsuccess', 'পেমেন্ট সফল হয়েছে। ধন্যবাদ!');
             return redirect()->route('home');
         } else {
             // dd($request->all());

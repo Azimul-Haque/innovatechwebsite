@@ -386,6 +386,7 @@
                                   <option value="4500">ইনোভাটেক বাৎসরিক সার্ভার ফি-প্যাকেজ ২</option>
                                   <option value="500">দোকানখাতা মাসিক ফি</option>
                                   <option value="1500">সিভিসিএস মাসিক ম্যানেজমেন্ট ফি</option>
+                                  <option value="1">TEST</option>
                               </select>
                             </div>
                             <div class="form-group">
