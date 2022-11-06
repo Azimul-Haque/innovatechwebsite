@@ -122,8 +122,8 @@
                                     </div>
                                 </div>
                                 <div class="team-info text-center">
-                                    <h5 class="name">Md. Nazmul Alam</h5>
-                                    <div class="position">CTO and DEV Lead</div>
+                                    <h5 class="name"><a href="https://orbachinujbuk.com">A. H. M. Azimul Haque</a></h5>
+                                    <div class="position">Co-founder & CTO</div>
                                 </div>
                             </div>
                         </div>

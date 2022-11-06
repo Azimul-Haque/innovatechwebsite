@@ -171,7 +171,6 @@
         </div>
         <!--====================  End of brand logo slider area  ====================-->
 
-
         <!--===========  feature-images-wrapper  Start =============-->
         <div class="feature-images-wrapper bg-gray section-space--ptb_100">
             <div class="container">
@@ -338,9 +337,87 @@
         </div>
         <!--===========  feature-images-wrapper  End =============-->
 
+        <!--===========  feature-images-wrapper  Start =============-->
+        <div class="feature-images-wrapper section-space--ptb_100">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- section-title-wrap Start -->
+                        <div class="section-title-wrap text-center section-space--mb_10">
+                            <h6 class="section-sub-title mb-20">Payment</h6>
+                            <h3 class="heading">Make Payement<br> with<span
+                                    class="text-color-primary"> aamarPay</span></h3>
+                        </div>
+                        <!-- section-title-wrap Start -->
+                    </div>
+                </div><br/>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <br/><br/>
+                        <div class="feature-images__two ">
+                            <div class="modern-grid-image-box row">
+                                <div class="single-item wow move-up ">
+                                    <!-- ht-box-icon Start -->
+                                    <a href="#!" class="ht-box-images style-02">
+                                        <div class="image-box-wrap">
+                                            <div class="box-image">
+                                                <img class="img-fulid" src="/images/icons/wd.png" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="heading">আমাদের সার্ভিসগুলোর পেমেন্ট করুন সহজে!</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- ht-box-icon End -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form  method="post" action="{{ route('index.payment.proceed') }}" class="was-validated">
+                            <div class="form-group">
+                              <label for="servicename">সার্ভিসের নাম</label>
+                              <select class="form-control" name="servicename" id="servicename" onchange="changeFieldValue()" required>
+                                  <option value="" selected disabled>সার্ভিস সিলেক্ট করুন</option>
+                                  <option value="2500">ইনোভাটেক বাৎসরিক সার্ভার ফি-প্যাকেজ ১</option>
+                                  <option value="4500">ইনোভাটেক বাৎসরিক সার্ভার ফি-প্যাকেজ ২</option>
+                                  <option value="500">দোকানখাতা মাসিক ফি</option>
+                                  <option value="1500">সিভিসিএস মাসিক ম্যানেজমেন্ট ফি</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="amount">পরিশোধ্য মূল্য (৳)</label>
+                              <input type="number" class="form-control" id="amount" name="amount" placeholder="মূল্য" readonly required>
+                            </div>
+                            <div class="form-group">
+                              <label for="mobile">মোবাইল নম্বর</label>
+                              <input type="number" class="form-control" name="mobile" placeholder="মোবাইল" required>
+                            </div>
+                            <div class="form-group form-check">
+                              <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember" required> I agree with <a href="{{ route('refund_return_policy') }}">Refund Policy</a>.
+                                <div class="valid-feedback">এগিয়ে যান।</div>
+                                <div class="invalid-feedback">Check this checkbox to continue.</div>
+                              </label>
+                            </div>
+                            <button type="submit" class="btn btn-sm btn-primary">মূল্য পরিশোধ করুন</button>
+                          </form>
+                          <script type="text/javascript">
+                              function changeFieldValue() {
+                                $('#amount').val($('#servicename').val());
+                              }
+                          </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--===========  feature-images-wrapper  End =============-->
+
 
         <!--===========  Projects wrapper Start =============-->
-        <div class="projects-wrapper projectinfotechno-bg section-space--ptb_100">
+        <div class="projects-wrapper projectinfotechno-bg bg-gray section-space--ptb_100">
             <div class="container">
 
                 <div class="row">

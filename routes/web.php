@@ -37,3 +37,11 @@ Route::get('/privacy_policy', function () {
 Route::get('/refund_return_policy', function () {
     return view('refund_return_policy');
 })->name('refund_return_policy');
+
+Route::post('/payment/proceed', 'IndexController@paymentProceed')->name('index.payment.proceed');
+Route::get('/payment/cancel', 'IndexController@paymentCancel')->name('index.payment.cancel');
+Route::get('/payment/failed', 'IndexController@paymentFailed')->name('index.payment.failed');
+Route::get('/payment/fail', 'IndexController@paymentFailed')->name('index.payment.failed');
+Route::post('/payment/success', 'IndexController@paymentSuccess')->name('index.payment.success');
+Route::post('/payment/app/confirm', 'IndexController@paymentSuccessApp')->name('index.payment.success.app');
+Route::get('/payment/app/cancel', 'IndexController@paymentCancelApp')->name('index.payment.cancel.app');
