@@ -366,7 +366,7 @@
 
 <!-- Main JS -->
 <script src="/js/main.js"></script>
-
+@include('partials._messages')
 
 </body>
 

@@ -376,7 +376,8 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <form  method="post" action="{{ route('index.payment.proceed') }}" class="was-validated">
+                        <form  method="POST" action="{{ route('index.payment.proceed') }}" class="was-validated">
+                            @csrf
                             <div class="form-group">
                               <label for="servicename">সার্ভিসের নাম</label>
                               <select class="form-control" name="servicename" id="servicename" onchange="changeFieldValue()" required>
