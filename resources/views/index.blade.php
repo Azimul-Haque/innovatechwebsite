@@ -386,6 +386,7 @@
                                   <option value="4500">ইনোভাটেক বাৎসরিক সার্ভার ফি-প্যাকেজ ২</option>
                                   <option value="500">দোকানখাতা মাসিক ফি</option>
                                   <option value="1500">সিভিসিএস মাসিক ম্যানেজমেন্ট ফি</option>
+                                  <option value="1000">ইজিস্কুল মাসিক ফি</option>
                                   <option value="1">TEST</option>
                               </select>
                             </div>
@@ -394,8 +395,8 @@
                               <input type="number" class="form-control" id="amount" name="amount" placeholder="মূল্য" readonly required>
                             </div>
                             <div class="form-group">
-                              <label for="mobile">মোবাইল নম্বর</label>
-                              <input type="number" class="form-control" name="mobile" placeholder="মোবাইল" required>
+                              <label for="mobile">মোবাইল নম্বর/ ক্লায়েন্ট আইডি</label>
+                              <input type="number" class="form-control" name="mobile" placeholder="মোবাইল নম্বর/ ক্লায়েন্ট আইডি" required>
                             </div>
                             <div class="form-group form-check">
                               <label class="form-check-label">
