@@ -164,8 +164,14 @@
                 </div>
 
             </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img style="width: 100%;" src="{{ asset('images/Footer-Logo.png') }}" onmousedown="return false;" onselectstart="return false;">
+                </div>
+            </div>
         </div>
     </div>
+    
     <div class="footer-copyright-area section-space--pb_30">
         <div class="container">
             <div class="row align-items-center">
